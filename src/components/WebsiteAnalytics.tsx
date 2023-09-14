@@ -36,7 +36,7 @@ const WebsiteAnalytics = (props: {
               <>
                 <FiberManualRecordIcon
                   sx={{
-                    color: `${activeStep == idx ? "white" : "#3F3598"}`,
+                    color: `${activeStep === idx ? "white" : "#3F3598"}`,
                     fontSize: "14px",
                   }}
                   // fontSize="small"

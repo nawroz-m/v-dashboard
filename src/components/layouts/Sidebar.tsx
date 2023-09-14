@@ -1,4 +1,3 @@
-import DiamondIcon from "@mui/icons-material/Diamond";
 import SidebarItems from "../SidebarItems";
 const Sidebar = () => {
   return (

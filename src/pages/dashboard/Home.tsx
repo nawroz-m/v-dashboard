@@ -2,6 +2,7 @@ import Grid from "@mui/material/Grid";
 import WebsiteAnalytics from "../../components/WebsiteAnalytics";
 import { WebAnalyticsType } from "../../constant/types/VariableTypes";
 import SalesOverView from "../../components/SalesOverView";
+import RevenueGenerated from "../../components/RevenueGenerated";
 
 const WebAnalyticsData: Array<WebAnalyticsType> = [
   {
@@ -78,28 +79,23 @@ const Home = () => {
   return (
     <>
       <div className="container">
-        <Grid container sx={{ px: 1 }}>
-          <Grid lg={6} md={12} sm={12} sx={{ my: 2, pr: 2 }}>
+        <Grid container sx={{ px: 1 }} className="flex-item space-between">
+          <Grid lg={5.85} md={12} sm={12} sx={{ my: 2 }}>
             <WebsiteAnalytics data={WebAnalyticsData} />
           </Grid>
           <Grid
             lg={6}
             md={12}
             sm={12}
-            sx={{ my: 2, pr: 2 }}
+            sx={{ my: 2 }}
             // style={{ border: "1px solid blue" }}
           >
-            <Grid container>
-              <Grid
-                lg={6}
-                md={6}
-                sm={12}
-                // style={{ border: "1px solid yellow" }}
-              >
+            <Grid container className="flex-item space-between">
+              <Grid lg={5.86} md={5.86} sm={12}>
                 <SalesOverView />
               </Grid>
-              <Grid lg={6} md={6} sm={12} style={{ border: "1px solid red" }}>
-                <p>Secon</p>
+              <Grid lg={5.86} md={5.86} sm={12}>
+                <RevenueGenerated />
               </Grid>
             </Grid>
           </Grid>

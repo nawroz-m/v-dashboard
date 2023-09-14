@@ -28,38 +28,6 @@
   color: #61dafb;
 }
 
-.skin--bordered {
-}
-
-.container {
-  margin: 12px;
-}
-.comapany-log {
-  font-size: x-large;
-  padding: 0;
-  margin: 0;
-}
-.logo-and-comapany-name {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-}
-.web-analytics-header {
-  font-size: 1.125rem !important;
-  font-weight: 500;
-  line-height: 1.5rem;
-  letter-spacing: normal !important;
-  padding: 0px;
-  margin: 0px;
-}
-.web-analytics-rates {
-  /* border: 1px solid gray; */
-  background-color: #675dd8;
-  border-radius: 5px;
-  padding: 4px 12px 4px 12px;
-  margin-right: 5px;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

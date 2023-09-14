@@ -1,5 +1,6 @@
 import React from "react";
-import "./App.css";
+// import "./App.css";
+import "./Style.scss";
 import RoutingConfig from "./config/RoutingConfig";
 
 function App() {
